@@ -104,3 +104,7 @@ int main() {
     return 0;
 }
 ```
+
+## Dear practicum.yandex.ru team,
+
+Thank you for the excellent C++ development course. It was engaging, informative, and provided me with valuable skills. Grateful for the opportunity to learn with you.
