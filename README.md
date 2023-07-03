@@ -94,10 +94,13 @@ if (std::holds_alternative<FormulaError>(result)) {
 The project includes a test suite to ensure the correctness of its functionalities. To run the tests, use the provided `test_runner_p.h` header file and execute the test functions.
 
 ```cpp
+#include "test_runner_p.h"
+
 int main() {
     TestRunner tr;
     RUN_TEST(tr, TestPositionAndStringConversion);
-    RUN_TEST(tr, TestPositionToStringInvalid
-
- ago
+    RUN_TEST(tr, TestPositionToStringInvalid);
+    // Add more test functions here if needed
+    return 0;
+}
 ```
